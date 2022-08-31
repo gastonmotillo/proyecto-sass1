@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fdd4c8;
+}
+
+@import "./variables/extend";
+@import "./variables/colores";
+@import "./variables/tipografia";
+@import "./variables/tamanios";
+
+
+@import "./secciones/header";
+@import "./secciones/mainIndex";
+@import "./secciones/footer";

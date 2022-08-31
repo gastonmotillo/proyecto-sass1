@@ -1,0 +1,31 @@
+.header {
+    background-color: $fondoHeader;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    height: $altoMinimo - 80vh;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+
+    &__logo img {
+        width: 150px;
+    }
+
+    &__ul {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        &--active {
+            font-weight: bold;
+        }
+        a {
+            text-decoration: none;
+            color: $colorLink;
+            font-family: $letraLink;
+            font-size: 27px;
+            margin: 30px;
+        }
+    }
+}

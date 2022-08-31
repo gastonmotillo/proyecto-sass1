@@ -1,12 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Pagina Sass</title>
 </head>
+
 <body>
-    
+    <header class="header">
+        <a class="header__logo" href="./index.html">
+            <img src="../img/logo.png" alt="Foto Logo">
+        </a>
+        <nav>
+            <ul class="header__ul">
+                <li>
+                    <a class="header__ul--active" href="./index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="#">Link</a>
+                </li>
+                <li>
+                    <a href="./galeria.html">Galeria</a>
+                </li>
+                <li>
+                    <a href="#">Link</a>
+                </li>
+                <li>
+                    <a href="#">Link</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="main__card">
+            <div>
+                <img class="main__img" src="../img/eva6.jpeg" alt="Foto Eva">
+            </div>
+            <div class="main__titulo">
+                <h1>!Bienvenidos a Capas de Amor Pastelería!</h1>
+                <p>Te saluda Eva Espinoza, una joven emprendedora que le apasiona el mundo de la pastelería
+                    artesanal. Con más de un año de experiencia en la elaboración de postres y tortas. En este
+                    espacio descubrirás junto conmigo tu lado mas dulce!
+                </p>
+            </div>
+        </section>
+
+        <section class="main__videos">
+            <div class="main__videos__titulo">
+                <h3>Te dejo algunos videos de mis recetas, espero que las disfrutes!</h3>
+            </div>
+            <div class="main__videos__iframe">
+                <iframe width="400" height="250" src="https://www.youtube.com/embed/KIhkA5ZW2pk"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+                <iframe width="400" height="250" src="https://www.youtube.com/embed/Xt1I6XaByuc"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <ul class="footer__ul">
+            <h2>Redes Sociales:</h2>
+            <li>
+                <a href="https://www.instagram.com/capasdeamor_pasteleria_/" target="_blank">Instagram</a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/beba.espinoza95" target="_blank">Facebook</a>
+            </li>
+        </ul>
+        <div class="footer__parrafos">
+            <p>Capas de Amor Pasteleria - ¡Disfruta sin culpa! - Rosario, Sta. Fe Argentina</p>
+            <p>Página realizada por Gastón Motillo</p>
+        </div>
+    </footer>
+
 </body>
+
 </html>
